@@ -1,0 +1,5 @@
+/serever/node_modules
+/serever/package-lock.json
+/client/node_modules
+/client/package-lock.json
+/client/public
