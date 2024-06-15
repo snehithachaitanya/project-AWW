@@ -1,11 +1,16 @@
-import logo from './logo.svg';
+import React from 'react';
+import Login from './components/AWWLogin.js';
 import './App.css';
 import Navbar from './components/Navbar';
 
-function App() {
+const App = () => {
   return (
-    <Navbar></Navbar>
+
+    <div className="App">
+      <Navbar></Navbar>
+      <Login />
+    </div>
   );
-}
+};
 
 export default App;
